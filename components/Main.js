@@ -10,7 +10,7 @@ class Main extends Component {
   render() {
     return (
       <View>
-      <Text style={styles.title}>Enter your name:</Text>
+        <Text style={styles.title}>Enter your name:</Text>
         <TextInput
           onChangeText={this.onChangeText}
           style={styles.nameInput}
